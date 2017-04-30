@@ -1,4 +1,5 @@
 export { default as Page } from "./components/Page";
+export { default as Container } from "./components/Container";
 
 if (process.env.NODE_ENV !== "production") {
   Object.defineProperty(exports, "default", {
